@@ -13,11 +13,13 @@
 8.	After completing these steps, make sure you can SSH into the virtual machine.
 
 ### 1. Checking the existing resource group:
+
 ```bash 
 az group list --output table
 ```
 
 ### 2. Create the virtual machines with parameters:
+
 ```bash
 az vm create --resource-group rg-grp1 --name nautilus-vm --location southcentralus --image Ubuntu2404 --size Standard_B1s --generate-ssh-keys --os-disk-size-gb 30 --storage-sku Standard_LRS --admin-username azureuser
 ```
@@ -27,7 +29,6 @@ az vm create --resource-group rg-grp1 --name nautilus-vm --location southcentral
 ```bash
 az vm list-ip-addresses --resource-group rg-grp1 --name nautilus-vm --output table
 ```
-
 
 ### 4. Confirm by using SSH to access the virtual machine:
 
