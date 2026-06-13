@@ -3,9 +3,9 @@
 ---
 
 ### Task parameters:
-- For this task, create an SSH key pair with the following requirements: 
-- The name of the SSH key pair should be nautilus-kp. 
-- The key pair type must be RSA.
+1. For this task, create an SSH key pair with the following requirements: 
+2. The name of the SSH key pair should be nautilus-kp. 
+3. The key pair type must be RSA.
 
 ### 1. Create local RSA key pair:
 
