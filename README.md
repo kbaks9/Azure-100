@@ -1,18 +1,35 @@
-# Azure-100
-
-FORMAT
-
-## Day {Number}: Details
-
----
+## Day :
 
 ### Task parameters:
-1.	here
-2.	here
-3.	here
+1. 
+2. 
+3. 
 
-### 1. xxx
+### 1. Check resource group exists:
 
 ```bash 
-format here
+
+```
+
+### 2. 
+
+```bash 
+
+```
+
+### 3. 
+
+```bash 
+
+```
+
+### 4. 
+```bash 
+
+```
+
+### 5. 
+
+```bash
+
 ```
